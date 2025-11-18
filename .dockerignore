@@ -1,0 +1,23 @@
+# Git
+.git
+.gitignore
+
+# IDE
+.idea
+.vscode
+
+# Testing
+*.test
+coverage.html
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Database
+postgres-data
+
+# Misc
+*.md
+.env
