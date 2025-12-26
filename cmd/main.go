@@ -20,6 +20,7 @@ func main() {
 	dbPassword := getEnv("DB_PASSWORD", "postgres")
 	dbName := getEnv("DB_NAME", "numbers_db")
 	serverPort := getEnv("SERVER_PORT", "8080")
+	log.Println("Environment variables loaded successfully")
 
 	var db *sql.DB
 	var err error
